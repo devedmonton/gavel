@@ -59,8 +59,11 @@ def item():
         if data:
             # validate data
             for index, row in enumerate(data):
-                if len(row) != 3:
-                    return utils.user_error('Bad data: row %d has %d elements (expecting 3)' % (index + 1, len(row)))
+                if len(row) != Item.NUM_EDITABLE_FIELDS:
+                    return utils.user_error(
+                        f'Bad data: row {index + 1} has {len(row)} elements '
+                        f'(expecting {Item.NUM_EDITABLE_FIELDS})'
+                    )
             def tx():
                 for row in data:
                     _item = Item(*row)
