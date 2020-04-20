@@ -34,6 +34,17 @@
         </td>
       </tr>
       <tr>
+        <th>YouTube URL</th>
+        <td>
+          <form action="{{ url_for('item_patch') }}" method="post">
+            <input type="url" name="youtube_url" value="{{ item.youtube_url | safe }}" placeholder="https://www.youtube.com/watch?v=rnZdiR7YbN4" pattern="https?://.+\..+">
+            <input type="submit" name="action" value="Update" class="neutral">
+            <input type="hidden" name="item_id" value="{{ item.id }}">
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+          </form>
+        </td>
+      </tr>
+      <tr>
         <th>Description</th>
         <td>
           <textarea name="description" form="description_form">{{ item.description | safe }}</textarea>
