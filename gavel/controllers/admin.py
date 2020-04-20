@@ -131,6 +131,8 @@ def item_patch():
             return utils.user_error('Item %s not found ' % request.form['item_id'])
         if 'location' in request.form:
             item.location = request.form['location']
+        if 'youtube_url' in request.form:
+            item.youtube_url = request.form['youtube_url']
         if 'name' in request.form:
             item.name = request.form['name']
         if 'description' in request.form:
