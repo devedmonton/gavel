@@ -26,7 +26,7 @@ def _jinja2_filter_youtube_embed(url: str):
     if url is None:
         return "No URL specified"
 
-    id_group = 2
+    id_group = 1
     embed_format_str = (
         "https://youtube.com/embed/{id_str}?"
         "rel=0&modestbranding=1&playsinline=1"
@@ -36,7 +36,7 @@ def _jinja2_filter_youtube_embed(url: str):
         'allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" '
         'allowfullscreen></iframe>'
     )
-    pattern = re.compile('(\\/|%3D|v=)([0-9A-z-_]{11})([%#?&]|$)')
+    pattern = re.compile(r'(?:\/|%3D|v=|vi=)([0-9A-z-_]{11})(?:[%#?&]|$)')
     hyperlink_fallback = (
         f'<p><a href="{url}" target="_blank" rel="nofollow">{url}</a></p>'
     )
