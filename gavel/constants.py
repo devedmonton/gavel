@@ -39,8 +39,12 @@ DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to Gavel, the online expo judging system. This email contains your
-magic link to the judging system.
+Welcome to Gavel, the online expo judging system. Before you enter the system,
+check out the training slides if you haven't already:
+
+https://tiny.cc/codevid19-judges-training
+
+This email contains your magic link to the judging system.
 
 DO NOT SHARE this email with others, as it contains your personal magic link.
 
