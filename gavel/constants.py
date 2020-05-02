@@ -18,10 +18,10 @@ Welcome to Gavel.
 
 **Please read this important message carefully before continuing.**
 
-Gavel is a fully automated expo judging system that both tells you where to go
-and collects your votes.
+Have you read our training slides? It won't take long: [give it a read
+here](https://tiny.cc/codevid19-judges-training).
 
-The system is based on the model of pairwise comparison. You'll start off by
+Gavel is based on the model of pairwise comparison. You'll start off by
 looking at a single submission, and then for every submission after that,
 you'll decide whether it's better or worse than the one you looked at
 **immediately beforehand**.
