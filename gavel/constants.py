@@ -72,5 +72,5 @@ For those who are being considered for Lead Judging positions, the organizers
 will be in touch with you soon.
 
 To all, we hope you stay tuned for details
-on the Final Ceremonies happening Saturday, May 16 at 23:00 UTC!
+on the Final Ceremonies happening Saturday, May 16 at 17:00 UTC!
 '''.strip()
