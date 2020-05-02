@@ -18,10 +18,10 @@ Welcome to Gavel.
 
 **Please read this important message carefully before continuing.**
 
-Gavel is a fully automated expo judging system that both tells you where to go
-and collects your votes.
+Have you read our training slides? It won't take long: [give it a read
+here](https://tiny.cc/codevid19-judges-training).
 
-The system is based on the model of pairwise comparison. You'll start off by
+Gavel is based on the model of pairwise comparison. You'll start off by
 looking at a single submission, and then for every submission after that,
 you'll decide whether it's better or worse than the one you looked at
 **immediately beforehand**.
@@ -63,7 +63,14 @@ You are currently logged out. Open your magic link to get started.
 '''.strip()
 
 DEFAULT_WAIT_MESSAGE = '''
-Wait for a little bit and reload the page to try again.
+You've made it to the end!
 
-If you've looked at all the projects already, then you're done.
+Thank you for taking the time to judge CODEVID-19's Qualifying Round
+submissions. We couldn't have done it without you.
+
+For those who are being considered for Lead Judging positions, the organizers
+will be in touch with you soon.
+
+To all, we hope you stay tuned for details
+on the Final Ceremonies happening Saturday, May 16 at 23:00 UTC!
 '''.strip()
