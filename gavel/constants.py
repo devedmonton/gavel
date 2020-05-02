@@ -19,7 +19,7 @@ Welcome to Gavel.
 **Please read this important message carefully before continuing.**
 
 Have you read our training slides? It won't take long: [give it a read
-here](https://tiny.cc/codevid19-judges-training).
+here](https://codevid19.com/assets/pdf/qualifying-judges-training.pdf).
 
 Gavel is based on the model of pairwise comparison. You'll start off by
 looking at a single submission, and then for every submission after that,
@@ -42,7 +42,7 @@ Hi {name},
 Welcome to Gavel, the online expo judging system. Before you enter the system,
 check out the training slides if you haven't already:
 
-https://tiny.cc/codevid19-judges-training
+https://codevid19.com/assets/pdf/qualifying-judges-training.pdf
 
 This email contains your magic link to the judging system.
 
